@@ -4,8 +4,8 @@ export default class MyDocument extends Document {
     render() {
         return (
             <html>
+                <title>Next JS Ain</title>
                 <Head>
-                    <title>Next JS Ain</title>
                     <link rel="stylesheet"
                         href="/_next/static/style.css"
                     />
