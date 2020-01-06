@@ -6,12 +6,6 @@ export default class MyDocument extends Document {
             <html>
                 <title>Next JS Ain</title>
                 <Head>
-                    {/* <link rel="stylesheet"
-                        href="/_next/static/style.css"
-                    /> */}
-                    <link rel="stylesheet"
-                        href="/_next/static/argon-design-system-react.css"
-                    />
                 </Head>
                 <body>
                     <Main />

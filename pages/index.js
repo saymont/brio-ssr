@@ -1,9 +1,9 @@
-// import Navbar from "../components/NavbarTest";
+import NavbarT from "../components/NavbarTest";
 import DemoNavbar from "../components/Navbars/DemoNavbar.jsx"
 
 const Index = () => (
     <section>
-        {/* <DemoNavbar /> */}
+        <NavbarT />
         <h1>Hello World</h1>
     </section>
 );
