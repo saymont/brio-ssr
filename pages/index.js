@@ -1,8 +1,9 @@
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/NavbarTest";
+import DemoNavbar from "../components/Navbars/DemoNavbar.jsx"
 
 const Index = () => (
     <section>
-        <Navbar />
+        {/* <DemoNavbar /> */}
         <h1>Hello World</h1>
     </section>
 );
