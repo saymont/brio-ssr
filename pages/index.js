@@ -1,11 +1,12 @@
-import Navbar from "../components/Navbar";
-import "../scss/style.scss";
+import React, { Component } from "react";
+import Router from "next/router";
 
-const Index = () => (
-    <section>
-        <Navbar />
-        <h1>Hello World</h1>
-    </section>
-);
+export default class Index extends Component {
+  componentDidMount = () => {
+    Router.push("/components");
+  };
 
-export default Index;
+  render() {
+    return <div />;
+  }
+}
