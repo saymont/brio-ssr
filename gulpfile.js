@@ -7,8 +7,8 @@ var sass = require('gulp-sass');
 // var scssFiles = 'src/assets/scss/**/*.scss';
 // var cssDest = 'src/assets/css/';
 
-var scssFiles = 'src/assets/scss/*.scss';
-var cssDest = 'src/assets/css/';
+var scssFiles = 'assets/scss/*.scss';
+var cssDest = 'assets/css/';
 
 function defaultTask(cb) {
   gulp.src(scssFiles)
