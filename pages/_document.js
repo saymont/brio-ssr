@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
     render() {
         return (
             <html>
-                <title>Next JS Ain</title>
+                <title>Next JS SSR</title>
                 <Head>
                 </Head>
                 <body>
